@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'main.dart'; // supaya bisa akses model Todo
+import '../main.dart'; // supaya bisa akses model Todo
 
 class DetailScreen extends StatelessWidget {
   const DetailScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    // Ambil arguments dari Navigator
     final todo = ModalRoute.of(context)!.settings.arguments as Todo?;
 
     return Scaffold(
