@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../providers/todo_provider.dart';
+import '../models/providers/todo_provider.dart';
 import '../main.dart';
 
 class HomeScreen extends StatelessWidget {

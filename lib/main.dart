@@ -4,7 +4,7 @@ import 'package:tugas_pm/screen/DetailScreen.dart';
 import 'package:tugas_pm/screen/HomeScreen.dart';
 import 'screen/HomeScreen.dart';
 import 'screen/DetailScreen.dart';
-import 'providers/todo_provider.dart';
+import 'models/providers/todo_provider.dart';
 
 void main() {
   runApp(

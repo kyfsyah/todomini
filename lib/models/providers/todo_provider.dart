@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../main.dart'; // supaya bisa akses model Todo
+import 'package:tugas_pm/main.dart'; // supaya bisa akses model Todo
 
 class TodoProvider extends ChangeNotifier {
   final List<Todo> _todos = [];
